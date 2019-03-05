@@ -1,0 +1,56 @@
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-100%); }
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: #243E36;
+    font-size: 20px; }
+  .icon-bar a:hover {
+    background-color: #011627;
+    color: white; }
+
+.sect2 {
+  background: url(../img\home\home-1.png); }
+
+.sect3 {
+  margin: 0;
+  padding: 0;
+  background: #011627;
+  height: 100%;
+  width: 200px;
+  overflow: auto; }
+  .sect3 a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none; }
+
+* {
+  scroll-behavior: smooth; }
+
+body {
+  margin: 0 auto;
+  background: #9FB7B9; }
+
+.grid-header {
+  display: grid;
+  grid-gap: 0;
+  margin-left: 3.2em;
+  grid-template-columns: auto auto 200px;
+  height: 100vh;
+  grid-template-areas: "heading    photo   navbar"; }
+
+.sect1 {
+  grid-area: heading; }
+
+.sect2 {
+  grid-area: photo; }
+
+.sect3 {
+  grid-area: navbar; }
+
+/*# sourceMappingURL=main.css.map */

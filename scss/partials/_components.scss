@@ -1,0 +1,58 @@
+// Sticky social bar
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-100%);
+  
+    a {
+        display: block;
+        text-align: center;
+        padding: 16px;
+        transition: all 0.3s ease;
+        color: #243E36;
+        font-size: 20px;
+    }
+
+    a:hover {
+        background-color: #011627;
+        color: white;
+    }
+}
+
+// Title section
+// .sect1 {
+    
+// }
+
+// Home Image
+.sect2 {
+    background: url(../img\home\home-1.png);
+}
+
+// Side Nav Bar
+.sect3 {
+    margin: 0;
+    padding: 0;
+    background: #011627;
+    // position: fixed;
+    height: 100%;
+    width: 200px;
+    overflow: auto;
+
+    a {
+        display: block;
+        color: black;
+        padding: 16px;
+        text-decoration: none;
+    }
+
+    // a.active {
+    //     background-color: #4CAF50;
+    //     color: white;
+    // }
+
+    // a:hover:not(.active) {
+    //     background-color: #555;
+    //     color: white;
+    // }
+}

@@ -1,0 +1,24 @@
+// GRID LAYOUT
+
+.grid-header {
+    display: grid;
+    grid-gap: 0;
+    margin-left: 3.2em;
+
+    grid-template-columns: auto auto 200px;
+    height: 100vh; 
+    grid-template-areas:
+        "heading    photo   navbar"
+}
+
+.sect1 {
+    grid-area: heading;
+}
+
+.sect2 {
+    grid-area: photo;
+}
+
+.sect3 {
+    grid-area: navbar;
+}
