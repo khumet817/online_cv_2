@@ -23,7 +23,7 @@
 // Header Styles
 
 // Home Image
-.home-rightSection {
+.homeImg {
     background-image: url(../img/home/home-4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -47,10 +47,19 @@
     box-shadow: rgba(88, 88, 88, 0.44) 0px 1px 4px 2px;
 }
 
-.skills {
+.skills-heading,
+.skills-body,
+.projects-heading {
     text-align: center;
 }
-.cube-heading {
+
+.skills-body {
+    padding: 20px;
+}
+
+.cube-heading,
+.skills-heading,
+.projects-heading {
     background: #011627;
     color: white;
     padding: 20px 15px;
@@ -63,8 +72,34 @@
 .fa-html5,
 .fa-css3-alt,
 .fa-sass,
-.fa-js {
+.fa-js,
+.fa-git-square {
     font-size: 32px;
+}
+
+// -------------------------------------------------------------------------------
+// Projects Styles
+
+.project-1 {
+    background: url(../img/home/home-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-2 {
+    background: url(../img/home/home-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-3 {
+    background: url(../img/home/home-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-container {
+  position: relative;
 }
 
 // -------------------------------------------------------------------------------- 

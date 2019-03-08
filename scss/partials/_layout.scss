@@ -43,7 +43,7 @@ footer {
         "heading   photo"
 }
 
-.home-rightSection {
+.homeImg {
     grid-area: photo;
 }
 
@@ -64,7 +64,7 @@ footer {
     grid-template-areas:
         "section-1  section-1   section-1   section-1   aside-2"
         "article    article     article     article     aside-2"
-        //  "section-2  section-2   section-2   section-2   section-2"
+         "section-2  section-2   section-2   section-2   section-2"
 }
 
 .about {
@@ -79,11 +79,17 @@ footer {
     grid-area: aside-2;
 }
 
-//  .projects {
-    // grid-area: section-2;
+.projects {
+    grid-area: section-2;
 
-    // background: darkorchid;
-    // height: 50vh;
-// } 
+    height: 50vh;
+}
+
+.grid-projects {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  height: 35vh;
+}
 
 /* -------------------------------------------------------------------------------- */

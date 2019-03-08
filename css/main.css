@@ -1,14 +1,3 @@
-.home-rightSection {
-  background-image: url(../img/home/home-4.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-y: 50%; }
-
-.title {
-  position: absolute;
-  bottom: 50px;
-  left: 80px; }
-
 * {
   scroll-behavior: smooth; }
 
@@ -47,6 +36,12 @@ h5 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 2.5em; }
 
+h6 {
+  position: absolute;
+  background: #011627;
+  color: white;
+  padding: 10px 20px; }
+
 p {
   font-family: 'Quicksand', sans-serif;
   font-size: 0.95em;
@@ -57,7 +52,7 @@ ul {
 
 li {
   list-style: none;
-  text-align: -webkit-auto;
+  text-align: center;
   padding-bottom: 10px; }
 
 .icon-bar {
@@ -75,7 +70,7 @@ li {
     background-color: #011627;
     color: beige; }
 
-.home-rightSection {
+.homeImg {
   background-image: url(../img/home/home-4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -93,10 +88,17 @@ li {
   color: #011627;
   box-shadow: rgba(88, 88, 88, 0.44) 0px 1px 4px 2px; }
 
-.skills {
+.skills-heading,
+.skills-body,
+.projects-heading {
   text-align: center; }
 
-.cube-heading {
+.skills-body {
+  padding: 20px; }
+
+.cube-heading,
+.skills-heading,
+.projects-heading {
   background: #011627;
   color: white;
   padding: 20px 15px; }
@@ -107,8 +109,27 @@ li {
 .fa-html5,
 .fa-css3-alt,
 .fa-sass,
-.fa-js {
+.fa-js,
+.fa-git-square {
   font-size: 32px; }
+
+.project-1 {
+  background: url(../img/home/home-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.project-2 {
+  background: url(../img/home/home-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.project-3 {
+  background: url(../img/home/home-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.text-container {
+  position: relative; }
 
 .parallax-contact {
   background: url(../img/contact.jpg);
@@ -155,7 +176,7 @@ footer {
   height: 100vh;
   grid-template-areas: "heading   photo"; }
 
-.home-rightSection {
+.homeImg {
   grid-area: photo; }
 
 .title {
@@ -167,7 +188,7 @@ footer {
   padding: 40px 180px;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: auto auto;
-  grid-template-areas: "section-1  section-1   section-1   section-1   aside-2" "article    article     article     article     aside-2"; }
+  grid-template-areas: "section-1  section-1   section-1   section-1   aside-2" "article    article     article     article     aside-2" "section-2  section-2   section-2   section-2   section-2"; }
 
 .about {
   grid-area: section-1; }
@@ -177,6 +198,15 @@ footer {
 
 .skills {
   grid-area: aside-2; }
+
+.projects {
+  grid-area: section-2;
+  height: 50vh; }
+
+.grid-projects {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 35vh; }
 
 /* -------------------------------------------------------------------------------- */
 

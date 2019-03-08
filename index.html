@@ -16,17 +16,17 @@
 <body>
     <!-- Sticky Icon Nav Bar-->
     <nav class="icon-bar">
-        <a href="#"><i class="fas fa-home"></i></a>
-        <a href="#"><i class="fas fa-user-tie"></i></a>
-        <a href="#"><i class="fas fa-book-reader"></i></a>
-        <a href="#"><i class="fas fa-th"></i></a>
-        <a href="#"><i class="fas fa-phone"></i></a>
+        <a href="#home"><i class="fas fa-home"></i></a>
+        <a href="#about"><i class="fas fa-user-tie"></i></a>
+        <a href="#academic"><i class="fas fa-book-reader"></i></a>
+        <a href="#projects"><i class="fas fa-th"></i></a>
+        <a href="#contact"><i class="fas fa-phone"></i></a>
     </nav>
 
     <!-- Start of content -->
     <div class="grid-content">
         <!-- Start of header -->
-        <header class="grid-header">
+        <header id="home" class="grid-header">
             <!-- Name with Quote -->
             <section class="title">
                 <h1>Tabile Khume</h1>
@@ -35,7 +35,7 @@
             </section>
 
             <!-- Home Image -->
-            <section class="home-rightSection"></section>
+            <section class="homeImg"></section>
         </header>
         <!-- End of header -->
 
@@ -62,7 +62,7 @@
             <!-- End of section with my about -->
         
             <!-- Start of section with my academic history -->
-            <article class="education">
+            <article id="academic" class="education">
                 <section class="cube-heading">
                     <h3>Academic History</h3>
                 </section>
@@ -108,11 +108,11 @@
         
             <!-- Start of aside section with my skills containing my logo and icons for the languages -->
             <aside class="skills">
-                <section class="cube-heading">
+                <section class="skills-heading">
                     <h3>Skills & Attributes</h3>
                 </section>
 
-                <section>
+                <section class="skills-body">
                     <p>
                         skill 1
                     </p>
@@ -142,11 +142,11 @@
                     </p>
                 </section>
 
-                <section class="cube-heading">
+                <section class="skills-heading">
                     <h3>Languages I know</h3>
                 </section>
                 
-                <section>
+                <section class="skills-body">
                     <!-- Language Icons -->
                     <ul>
                         <li>
@@ -161,15 +161,32 @@
                         <li>
                             <i class="fab fa-js"></i>
                         </li>
+                        <li>
+                            <i class="fab fa-git-square"></i>
+                        </li>
                     </ul>
                 </section>
             </aside>
             <!-- End of aside section with my skills containing my logo and icons for the languages -->
         
             <!-- Start of section with the projects I have done -->
-            <!-- <section id="projects" class="projects">
-                        MY PROJECTS WILL BE HERE IN THE FORM OF AN TAB GALLARY.
-                    </section> -->
+            <section id="projects" class="projects">
+                <section class="projects-heading">
+                    <h3>Projects I've Worked On</h3>
+                </section>
+
+                <section class="grid-projects text-container">
+                    <div class="project-1">
+                        <h6>Coming Soon</h6>
+                    </div>
+                    <div class="project-2">
+                        <h6>Coming Soon</h6>
+                    </div>
+                    <div class="project-3">
+                        <h6>Coming Soon</h6>
+                    </div>
+                </section>
+            </section>
             <!-- End of section with the projects I have done -->
         </main>
         <!-- End of content in main -->
@@ -177,7 +194,7 @@
         <!-- Start of section with information on where to contact me -->
         <aside id="contact" class="contct">
             <!-- Parallax image section -->
-            <section class="parallax-contact">
+            <section id="contact" class="parallax-contact">
                 <h5>Where can you find me?</h5>
             </section>
         
@@ -185,25 +202,25 @@
             <section class="contct-info">
                 <p>
                     <p>
-                        <i class="fas fa-map-marker-alt"></i> Cape Town, South Africa
+                        <i class="fas fa-map-marker-alt"></i>  Cape Town, South Africa
                     </p>
         
                     <p>
-                        <i class="fas fa-mobile"></i> (+27) 81 889 6362
+                        <i class="fas fa-mobile"></i>  (+27) 81 889 6362
                     </p>
         
                     <p>
-                        <i class="fas fa-envelope"></i> tabilekhume17@gmail.com
+                        <i class="fas fa-envelope"></i>  tabilekhume17@gmail.com
                     </p>
                 </p>
         
                 <p>
                     <p>
-                        <i class="fab fa-instagram"></i> @khume_17
+                        <i class="fab fa-instagram"></i>  @khume_17
                     </p>
         
                     <p>
-                        <i class="fab fa-linkedin"></i> Tabile Khume
+                        <i class="fab fa-linkedin"></i>  Tabile Khume
                     </p>
                 </p>
             </section>

@@ -47,6 +47,14 @@ h5 {
     font-size: 2.5em;
 }
 
+
+h6 {
+    position: absolute;
+    background: #011627;
+    color: white;
+    padding: 10px 20px;
+}
+
 p {
     font-family: 'Quicksand', sans-serif;
     font-size: 0.95em;
@@ -60,6 +68,6 @@ ul {
 
 li {
     list-style: none;
-    text-align: -webkit-auto;
+    text-align: center;
     padding-bottom: 10px;
 }
