@@ -1,56 +1,183 @@
-.icon-bar {
-  position: fixed;
-  top: 50%;
-  transform: translateY(-100%); }
-  .icon-bar a {
-    display: block;
-    text-align: center;
-    padding: 16px;
-    transition: all 0.3s ease;
-    color: #243E36;
-    font-size: 20px; }
-  .icon-bar a:hover {
-    background-color: #011627;
-    color: white; }
+.home-rightSection {
+  background-image: url(../img/home/home-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 50%; }
 
-.sect2 {
-  background: url(../img\home\home-1.png); }
-
-.sect3 {
-  margin: 0;
-  padding: 0;
-  background: #011627;
-  height: 100%;
-  width: 200px;
-  overflow: auto; }
-  .sect3 a {
-    display: block;
-    color: black;
-    padding: 16px;
-    text-decoration: none; }
+.title {
+  position: absolute;
+  bottom: 50px;
+  left: 80px; }
 
 * {
   scroll-behavior: smooth; }
 
 body {
   margin: 0 auto;
-  background: #9FB7B9; }
+  background: #9fb7b9; }
+
+header {
+  border-bottom: solid 1px white; }
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+  color: #011627;
+  margin-bottom: 0; }
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  color: #011627;
+  margin-top: 0; }
+
+h3 {
+  margin: 0; }
+
+h3,
+h4 {
+  font-family: 'Prompt', sans-serif;
+  font-size: 1em; }
+
+h5 {
+  margin: 0;
+  text-align: center;
+  padding-top: 8%;
+  color: aliceblue;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5em; }
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.95em;
+  margin: 0; }
+
+ul {
+  padding: 0; }
+
+li {
+  list-style: none;
+  text-align: -webkit-auto;
+  padding-bottom: 10px; }
+
+.icon-bar {
+  position: fixed;
+  top: 65%;
+  transform: translateY(-100%); }
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px; }
+  .icon-bar a:hover {
+    background-color: #011627;
+    color: beige; }
+
+.home-rightSection {
+  background-image: url(../img/home/home-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 50%; }
+
+.title {
+  position: absolute;
+  bottom: 50px;
+  left: 80px; }
+
+.about,
+.education,
+.skills {
+  background: white;
+  color: #011627;
+  box-shadow: rgba(88, 88, 88, 0.44) 0px 1px 4px 2px; }
+
+.skills {
+  text-align: center; }
+
+.cube-heading {
+  background: #011627;
+  color: white;
+  padding: 20px 15px; }
+
+.box-body {
+  padding: 20px 10px; }
+
+.fa-html5,
+.fa-css3-alt,
+.fa-sass,
+.fa-js {
+  font-size: 32px; }
+
+.parallax-contact {
+  background: url(../img/contact.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  height: 40vh; }
+
+.contct-info {
+  padding: 4% 12%; }
+
+.main-footer {
+  background: #011627;
+  color: white;
+  padding: 10px 20px;
+  text-align: center; }
+
+.grid-content {
+  display: grid;
+  /* grid-gap: 10px; */
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto auto auto 75px;
+  grid-template-areas: "header     header      header      header      header" "main       main        main        main        main" "aside-1    aside-1     aside-1     aside-1     aside-1" "footer     footer      footer      footer      footer"; }
+
+header {
+  grid-area: header; }
+
+main {
+  grid-area: main; }
+
+.contct {
+  grid-area: aside-1; }
+
+footer {
+  grid-area: footer; }
 
 .grid-header {
   display: grid;
   grid-gap: 0;
   margin-left: 3.2em;
-  grid-template-columns: auto auto 200px;
+  grid-template-columns: auto auto;
   height: 100vh;
-  grid-template-areas: "heading    photo   navbar"; }
+  grid-template-areas: "heading   photo"; }
 
-.sect1 {
-  grid-area: heading; }
-
-.sect2 {
+.home-rightSection {
   grid-area: photo; }
 
-.sect3 {
-  grid-area: navbar; }
+.title {
+  grid-area: heading; }
+
+.grid-2 {
+  display: grid;
+  grid-gap: 13px;
+  padding: 40px 180px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto auto;
+  grid-template-areas: "section-1  section-1   section-1   section-1   aside-2" "article    article     article     article     aside-2"; }
+
+.about {
+  grid-area: section-1; }
+
+.education {
+  grid-area: article; }
+
+.skills {
+  grid-area: aside-2; }
+
+/* -------------------------------------------------------------------------------- */
 
 /*# sourceMappingURL=main.css.map */

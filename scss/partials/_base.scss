@@ -5,5 +5,61 @@
 
 body {
     margin: 0 auto;
-    background: #9FB7B9;
+    background: #9fb7b9;
+}
+
+header {
+    border-bottom: solid 1px white;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    color: #011627;
+
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    color: #011627;
+
+    margin-top: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+h3,
+h4 {
+    font-family: 'Prompt', sans-serif;
+    font-size: 1em;
+}
+
+h5 {
+    margin: 0;
+    text-align: center;
+    padding-top: 8%;
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5em;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.95em;
+
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    text-align: -webkit-auto;
+    padding-bottom: 10px;
 }

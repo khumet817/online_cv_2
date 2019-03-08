@@ -1,0 +1,97 @@
+// Sticky Nav Bar
+.icon-bar {
+    position: fixed;
+    top: 65%;
+    transform: translateY(-100%);
+  
+    a {
+        display: block;
+        text-align: center;
+        padding: 16px;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 20px;
+    }
+
+    a:hover {
+        background-color: #011627;
+        color: beige;
+    }
+}
+
+// --------------------------------------------------------------------------------
+// Header Styles
+
+// Home Image
+.home-rightSection {
+    background-image: url(../img/home/home-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+}
+
+// Title section
+.title {
+    position: absolute;
+    bottom: 50px;
+    left: 80px;
+}
+
+// --------------------------------------------------------------------------------
+//  Main Styles
+.about, 
+.education, 
+.skills {
+    background: white;
+    color: #011627;
+    box-shadow: rgba(88, 88, 88, 0.44) 0px 1px 4px 2px;
+}
+
+.skills {
+    text-align: center;
+}
+.cube-heading {
+    background: #011627;
+    color: white;
+    padding: 20px 15px;
+}
+
+.box-body {
+    padding: 20px 10px;
+}
+
+.fa-html5,
+.fa-css3-alt,
+.fa-sass,
+.fa-js {
+    font-size: 32px;
+}
+
+// -------------------------------------------------------------------------------- 
+//  Contact Styles
+
+.parallax-contact {
+    background: url(../img/contact.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 0 auto;
+    height: 40vh;
+}
+
+.contct-info {
+    padding: 4% 12%;
+}
+
+//  -------------------------------------------------------------
+//  Footer Styles
+
+.main-footer {
+    background: #011627;
+    color: white;
+
+    padding: 10px 20px;
+    text-align: center;
+}
