@@ -1,0 +1,198 @@
+@media screen and (max-width: 1200px) {
+    // =========
+    // LAPTOP
+    // =========
+    
+    // ----------------------------------------------------------------------------------------------------------------------------------
+    // Header Styles 
+
+    // Home
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    // ----------------------------------------------------------------------------------------------------------------------------------
+    // Main Styles
+
+    .grid-2 {
+    grid-gap: 10px;
+    padding: 50px 110px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    // ========
+    // TABLET
+    // ========
+    body {
+        background: beige;
+    }
+
+    // -----------------------------------------------------------------------------------------------------------------------------------
+    // Header Styles
+
+    // Grid
+    .grid-header {
+        display: grid;
+        grid-gap: 0;
+
+        grid-template-columns: auto;
+        height: 100vh;
+        margin-left: 0;
+        grid-template-areas:
+            "home"
+    }
+
+    // Icons
+    .icon-bar {
+        position: fixed;
+        top: 70%;
+        transform: translateY(-100%);
+  
+        a {
+            display: block;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            transition: all 0.3s ease;
+            border-radius: 100%;
+            background: #ede7b196;
+            color: black;
+            font-size: 16px;
+        }
+
+        a:hover {
+            background-color: #540B0E;
+            color: beige;
+        }
+    }
+
+    // Home
+    .homeImg {
+        grid-area: home;
+
+        background-image: url(../img/home/tablet_home-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .title {
+        display: none;
+    }
+
+    .home-heading {
+        grid-area: home;
+        // background-color: rgb(0, 0, 0, 0.7);
+        font-family: 'Montserrat', sans-serif;
+        border: solid #282828 1px;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    // ---------------------------------------------------------------------------------------------------------------------------------------
+    // Main Styles
+
+    // Grid
+    .grid-2 {
+        display: grid;
+        grid-gap: 10px;
+        padding: 50px 80px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: 
+            "section-1 section-1"
+            "aside-2 aside-2"
+            "article article"
+            "section-2 section-2"
+    }
+
+    .grid-projects {
+        height: 25vh;
+    }
+
+    // Icon
+    ul {
+        display: inline-flex;
+        padding: 0;
+    }
+
+    li {
+        font-size: 2em;
+        margin: 0 16px;
+    }
+
+    .about, 
+    .education, 
+    .skills {
+        background: #EDE7B1;
+        color: #540B0E;
+        box-shadow: rgba(88, 88, 88, 0.44) 0px 1px 4px 2px;
+    }
+
+    .skills-heading,
+    .skills-body,
+    .projects-heading {
+        text-align: center;
+    }
+
+    .skills-body {
+        padding: 20px;
+    }
+
+    .cube-heading,
+    .skills-heading,
+    .projects-heading {
+        background: #540B0E;
+        color: #EDE7B1;
+        padding: 20px 15px;
+    }
+
+    .box-body {
+        padding: 10px;
+    }
+
+    .fa-html5,
+    .fa-css3-alt,
+    .fa-sass,
+    .fa-js,
+    .fa-git-square {
+        font-size: 32px;
+    }
+
+    // ------------------------------------------------------------------------------
+    //  Contact Styles
+
+    .parallax-contact {
+        background: url(../img/tablet_contact.jpg);
+        // background-attachment: fixed;
+        // background-position: center;
+        // background-repeat: no-repeat;
+        // background-size: cover;
+
+        // margin: 0 auto;
+        height: 30vh;
+    }
+
+    h5 {
+        color: black;
+        text-shadow: white 1px 1px 9px;
+    }
+
+    //  -------------------------------------------------------------
+    //  Footer Styles
+
+    .main-footer {
+        background: #540B0E;
+        color: white;
+
+        padding: 10px 20px;
+        text-align: center;
+    }
+}
