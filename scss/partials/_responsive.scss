@@ -81,19 +81,29 @@
     }
 
     .title {
-        display: none;
-    }
-
-    .home-heading {
         grid-area: home;
-        // background-color: rgb(0, 0, 0, 0.7);
+        height: 20vh;
+        width: 75%;
+        padding: 0 20px;
+        background: #EDE7B1;
+        border-radius: .45em;
+        border-bottom-right-radius: 0;
         font-family: 'Montserrat', sans-serif;
-        border: solid #282828 1px;
-        color: rgb(255, 255, 255);
-        position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    h1 {
+        font-size: 2em;
+        text-align: center;
+        color: #540B0E;
+    }
+
+    h2 {
+        font-size: .8em;
+        text-align: center;
+        color: #540B0E;
     }
 
     // ---------------------------------------------------------------------------------------------------------------------------------------
