@@ -354,6 +354,9 @@ footer {
       padding: 12px 0;
       background: #ede7b1; } }
 @media screen and (max-width: 426px) {
+  .icon-nav a {
+    background: #ede7b1e8; }
+
   .homeImg {
     background-image: url(../img/home/mobile_home_2.jpg);
     background-size: cover;
@@ -368,6 +371,10 @@ footer {
   .title {
     background: #ede7b1e8;
     height: 10vh;
-    width: 60%; } }
+    width: 60%; }
+
+  .grid-2 {
+    grid-gap: 20px;
+    padding: 50px 5px; } }
 
 /*# sourceMappingURL=main.css.map */

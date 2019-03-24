@@ -215,6 +215,7 @@
         width: 100%;
         overflow: auto;
         top: 8%;
+
         a {
             float: left;
             width: 20%;
@@ -231,6 +232,11 @@
     // MOBILE - LARGE
     // ===============
 
+    // Icon Nav Bar
+    .icon-nav a {
+        background: #ede7b1e8;
+    }
+    
     // Home
     .homeImg {
         background-image: url(../img/home/mobile_home_2.jpg);
@@ -250,6 +256,12 @@
         background: #ede7b1e8;
         height: 10vh;
         width: 60%;
+    }
+
+    // Main
+    .grid-2 {
+    grid-gap: 20px;
+    padding: 50px 5px;
     }
 
 }
