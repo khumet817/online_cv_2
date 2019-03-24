@@ -353,5 +353,21 @@ footer {
       margin: 0;
       padding: 12px 0;
       background: #ede7b1; } }
+@media screen and (max-width: 426px) {
+  .homeImg {
+    background-image: url(../img/home/mobile_home_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+  h1 {
+    font-size: 1em; }
+
+  h2 {
+    font-size: .46em; }
+
+  .title {
+    background: #ede7b1e8;
+    height: 10vh;
+    width: 60%; } }
 
 /*# sourceMappingURL=main.css.map */
