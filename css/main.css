@@ -140,8 +140,8 @@ li {
   margin: 0 auto;
   height: 40vh; }
 
-.contct-info {
-  padding: 4% 12%; }
+.contact-info {
+  text-align: center; }
 
 .main-footer {
   background: #011627;
@@ -208,6 +208,11 @@ footer {
   height: 35vh; }
 
 /* -------------------------------------------------------------------------------- */
+.contact-info-container {
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: repeat(3, 1fr); }
+
 @media screen and (max-width: 1200px) {
   h1 {
     font-size: 3em; }
