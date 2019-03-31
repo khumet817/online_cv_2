@@ -22,6 +22,24 @@
     grid-gap: 10px;
     padding: 50px 110px;
     }
+
+    // ----------------------------------------------------------------------------------------------------------------------------------
+    // Contact Styles
+    .contact-info-container {
+        display: grid;
+        grid-gap: 0;
+        margin: 50px 110px;
+    
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .details-on-side {
+        padding: 35px 25px;
+    }
+
+    .location {
+        padding: 25px;
+    }
 }
 
 @media screen and (max-width: 768px) {
