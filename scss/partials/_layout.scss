@@ -95,6 +95,7 @@ footer {
 .contact-info-container {
     display: grid;
     grid-gap: 0;
+    margin: 40px 180px;
 
     grid-template-columns: repeat(3,1fr);
 }
