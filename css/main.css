@@ -12,18 +12,6 @@ body {
 header {
   border-bottom: solid 1px white; }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 4em;
-  color: #011627;
-  margin-bottom: 0; }
-
-h2 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.3em;
-  color: #011627;
-  margin-top: 0; }
-
 h3 {
   margin: 0; }
 
@@ -84,6 +72,18 @@ li {
   position: absolute;
   bottom: 50px;
   left: 80px; }
+
+.myName {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+  color: #011627;
+  margin-bottom: 0; }
+
+.quote {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  color: #011627;
+  margin-top: 0; }
 
 .about,
 .education,
@@ -230,10 +230,10 @@ footer {
   grid-template-columns: repeat(3, 1fr); }
 
 @media screen and (max-width: 1200px) {
-  h1 {
+  .myName {
     font-size: 3em; }
 
-  h2 {
+  .quote {
     font-size: 1em; }
 
   .grid-2 {
@@ -300,12 +300,12 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%); }
 
-  h1 {
+  .myName {
     font-size: 2em;
     text-align: center;
     color: #540B0E; }
 
-  h2 {
+  .quote {
     font-size: .8em;
     text-align: center;
     color: #540B0E; }
@@ -420,10 +420,10 @@ footer {
     background-size: cover;
     background-repeat: no-repeat; }
 
-  h1 {
+  .myName {
     font-size: 1em; }
 
-  h2 {
+  .quote {
     font-size: .46em; }
 
   .title {
