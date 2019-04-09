@@ -99,3 +99,19 @@ footer {
 
     grid-template-columns: repeat(3,1fr);
 }
+
+.details-container-left,
+.details-container-right {
+    display: grid;
+    grid-gap: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.details-container-left {
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.details-container-right {
+    grid-template-rows: repeat(3, 1fr);
+}

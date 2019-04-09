@@ -148,11 +148,25 @@
 .location {
     background: #011627;
     color: white;
-    padding: 35px;
+    padding: 20px 0;
 }
 
-.details-on-side {
-    padding: 40px;
+.exact-location {
+    padding: 15px 0;
+}
+
+// .details-on-side {
+//     padding: 0 40px;
+// }
+
+.detail-left {
+    padding: 20px 0;
+    border-bottom: solid #9fb7b954 1px;
+}
+
+.detail-right {
+    padding: 10px 0;
+    border-bottom: solid #9fb7b954 1px;
 }
 
 //  -------------------------------------------------------------

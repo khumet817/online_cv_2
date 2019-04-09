@@ -7,18 +7,13 @@
 
 body {
   margin: 0 auto;
-  background: #9fb7b9; }
+  background: #9fb7b9 !important; }
 
 header {
   border-bottom: solid 1px white; }
 
 h3 {
   margin: 0; }
-
-h3,
-h4 {
-  font-family: 'Prompt', sans-serif;
-  font-size: 1em; }
 
 h5 {
   margin: 0;
@@ -117,6 +112,10 @@ li {
 .fa-git-square {
   font-size: 32px; }
 
+.cube-heading-title {
+  font-family: 'Prompt', sans-serif;
+  font-size: 1em; }
+
 .project-1 {
   background: url(../img/home/home-3.jpg);
   background-size: cover;
@@ -153,10 +152,18 @@ li {
 .location {
   background: #011627;
   color: white;
-  padding: 35px; }
+  padding: 20px 0; }
 
-.details-on-side {
-  padding: 40px; }
+.exact-location {
+  padding: 15px 0; }
+
+.detail-left {
+  padding: 20px 0;
+  border-bottom: solid #9fb7b954 1px; }
+
+.detail-right {
+  padding: 10px 0;
+  border-bottom: solid #9fb7b954 1px; }
 
 .main-footer {
   background: #011627;
@@ -229,6 +236,19 @@ footer {
   margin: 40px 180px;
   grid-template-columns: repeat(3, 1fr); }
 
+.details-container-left,
+.details-container-right {
+  display: grid;
+  grid-gap: 0;
+  margin: 0;
+  padding: 0; }
+
+.details-container-left {
+  grid-template-rows: repeat(2, 1fr); }
+
+.details-container-right {
+  grid-template-rows: repeat(3, 1fr); }
+
 @media screen and (max-width: 1200px) {
   .myName {
     font-size: 3em; }
@@ -253,7 +273,7 @@ footer {
     padding: 25px; } }
 @media screen and (max-width: 768px) {
   body {
-    background: beige; }
+    background: beige !important; }
 
   .grid-header {
     display: grid;
