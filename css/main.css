@@ -42,6 +42,9 @@ li {
   text-align: center;
   padding-bottom: 10px; }
 
+iframe {
+  margin: 0; }
+
 .icon-nav {
   position: fixed;
   top: 65%;
@@ -134,14 +137,11 @@ li {
 .text-container {
   position: relative; }
 
-.parallax-contact {
-  background: url(../img/contact.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0 auto;
-  height: 40vh; }
+.where-to-find-me-heading {
+  background: #011627;
+  color: white;
+  padding: 20px 15px;
+  text-align: center; }
 
 .contact-info {
   text-align: center;
@@ -224,16 +224,20 @@ footer {
 .projects {
   grid-area: section-2; }
 
-.grid-projects {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  height: 35vh; }
-
 /* -------------------------------------------------------------------------------- */
+.where-to-find-me {
+  display: grid;
+  grid-area: aside-1;
+  grid-gap: 0;
+  width: 100%;
+  grid-template-rows: auto auto auto;
+  padding: 40px 180px;
+  padding-top: 0; }
+
 .contact-info-container {
   display: grid;
   grid-gap: 0;
-  margin: 40px 180px;
+  width: 100%;
   grid-template-columns: repeat(3, 1fr); }
 
 .details-container-left,

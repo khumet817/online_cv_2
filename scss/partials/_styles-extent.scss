@@ -126,16 +126,11 @@
 
 // -------------------------------------------------------------------------------- 
 //  Contact Styles
-
-.parallax-contact {
-    background: url(../img/contact.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    margin: 0 auto;
-    height: 40vh;
+.where-to-find-me-heading {
+    background: #011627;
+    color: white;
+    padding: 20px 15px;
+    text-align: center;
 }
 
 .contact-info {
