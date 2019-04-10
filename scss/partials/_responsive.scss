@@ -245,8 +245,8 @@
     // ====================
     .icon-nav {
         width: 100%;
-        overflow: auto;
-        top: 8%;
+        overflow: hidden;
+        top: 45px;
 
         a {
             float: left;
@@ -302,8 +302,12 @@
 
     // Main
     .grid-2 {
-    grid-gap: 20px;
-    padding: 50px 5px;
+        grid-gap: 5px;
+        padding: 10px 0;
     }
 
+    // Contact
+    .where-to-find-me {
+        padding: 5px 0;
+    }
 }
