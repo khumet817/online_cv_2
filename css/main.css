@@ -2,6 +2,10 @@
   content: "\f3c5";
   font-size: 25px; }
 
+.btn-modal {
+  background: #363a3d;
+  color: #cccccc; }
+
 * {
   scroll-behavior: smooth; }
 
@@ -247,22 +251,26 @@ footer {
 
   .grid-2 {
     grid-gap: 10px;
-    padding: 50px 110px; }
+    padding: 50px 10vw; }
 
   .contact-info-container {
-    display: grid;
-    grid-gap: 0;
-    margin: 50px 110px;
-    grid-template-columns: repeat(3, 1fr); }
+    display: grid; }
 
-  .details-on-side {
-    padding: 35px 25px; }
-
-  .location {
-    padding: 25px; } }
+  .where-to-find-me {
+    padding: 40px 10vw;
+    padding-top: 0; } }
 @media screen and (max-width: 768px) {
   body {
     background: beige !important; }
+
+  .grid-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto auto 50px;
+    grid-template-areas: "top-nav    top-nav" "header     header" "main       main" "aside-1    aside-1" "footer     footer"; }
+
+  nav {
+    grid-area: top-nav; }
 
   .grid-header {
     display: grid;
@@ -370,28 +378,16 @@ footer {
   .fa-git-square {
     font-size: 32px; }
 
-  .parallax-contact {
-    background: url(../img/tablet_contact.jpg);
-    height: 30vh; }
-
-  h5 {
-    color: black;
-    text-shadow: white 1px 1px 9px; }
-
-  .contact-info-container {
-    display: grid;
-    grid-gap: 0;
-    margin: 50px 80px;
-    grid-template-columns: repeat(3, 1fr); }
+  .where-to-find-me-heading {
+    background: #540B0E;
+    color: #EDE7B1; }
 
   .details-on-side {
-    padding: 30px 0px;
-    font-size: .9em;
+    font-size: .8em;
     background: #EDE7B1;
     color: #540B0E; }
 
   .location {
-    padding: 25px 0;
     font-size: .9em;
     background: #540B0E;
     color: #EDE7B1; }
@@ -401,7 +397,7 @@ footer {
     color: white;
     padding: 10px 20px;
     text-align: center; } }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 560px) {
   .icon-nav {
     width: 100%;
     overflow: auto;
@@ -415,11 +411,11 @@ footer {
       background: #ede7b1; }
 
   .contact-info-container {
-    display: grid;
-    grid-gap: 0;
-    margin: 50px 80px;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr); } }
+    grid-template-rows: repeat(3, 1fr); }
+
+  .details-on-side {
+    font-size: .7em; } }
 @media screen and (max-width: 426px) {
   .icon-nav a {
     background: #ede7b1e8; }

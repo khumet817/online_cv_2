@@ -20,25 +20,18 @@
 
     .grid-2 {
     grid-gap: 10px;
-    padding: 50px 110px;
+    padding: 50px 10vw;
     }
 
     // ----------------------------------------------------------------------------------------------------------------------------------
     // Contact Styles
     .contact-info-container {
         display: grid;
-        grid-gap: 0;
-        margin: 50px 110px;
-    
-        grid-template-columns: repeat(3,1fr);
     }
 
-    .details-on-side {
-        padding: 35px 25px;
-    }
-
-    .location {
-        padding: 25px;
+    .where-to-find-me {
+        padding: 40px 10vw;
+        padding-top: 0;
     }
 }
 
@@ -48,6 +41,25 @@
     // ===================
     body {
         background: beige !important;
+    }
+
+    // -----------------------------------------------
+    // Page Layout
+    .grid-content {
+        display: grid;
+
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto auto auto auto 50px;
+        grid-template-areas:
+            "top-nav    top-nav"
+            "header     header"
+            "main       main"
+            "aside-1    aside-1"
+            "footer     footer" 
+    }
+
+    nav {
+        grid-area: top-nav;
     }
 
     // -----------------------------------------------------------------------------------------------------------------------------------
@@ -196,40 +208,20 @@
 
     // ------------------------------------------------------------------------------
     //  Contact Styles
-
-    .parallax-contact {
-        background: url(../img/tablet_contact.jpg);
-        // background-attachment: fixed;
-        // background-position: center;
-        // background-repeat: no-repeat;
-        // background-size: cover;
-
-        // margin: 0 auto;
-        height: 30vh;
-    }
-
-    h5 {
-        color: black;
-        text-shadow: white 1px 1px 9px;
-    }
-
-    .contact-info-container {
-        display: grid;
-        grid-gap: 0;
-        margin: 50px 80px;
-    
-        grid-template-columns: repeat(3,1fr);
+    .where-to-find-me-heading {
+        background: #540B0E;
+        color: #EDE7B1;
     }
 
     .details-on-side {
-        padding: 30px 0px;
-        font-size: .9em;
+        // padding: 30px 0px;
+        font-size: .8em;
         background: #EDE7B1;
         color: #540B0E;
     }
 
     .location {
-        padding: 25px 0;
+        // padding: 25px 0;
         font-size: .9em;
         background: #540B0E;
         color: #EDE7B1;
@@ -247,7 +239,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 560px) {
     // ====================
     // TABLET - POTRAIT
     // ====================
@@ -268,12 +260,12 @@
 
     // Contact Styles
     .contact-info-container {
-        display: grid;
-        grid-gap: 0;
-        margin: 50px 80px;
-    
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3,1fr);
+    }
+
+    .details-on-side {
+        font-size: .7em;
     }
 }
 
