@@ -25,6 +25,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
 </head>
 <body>
     <!-- Start of content -->
@@ -55,7 +59,7 @@
         <!-- Start of content in main -->
         <main class="grid-2">
             <!-- Start of section with my about -->
-            <section id="about" class="about">
+            <section id="about" class="about" data-aos="fade-right">
                 <section class="cube-heading">
                     <h3 class="cube-heading-title">About Me</h3>
                 </section>
@@ -75,7 +79,7 @@
             <!-- End of section with my about -->
         
             <!-- Start of section with my academic history -->
-            <article id="academic" class="education">
+            <article id="academic" class="education" data-aos="fade-right">
                 <section class="cube-heading">
                     <h3 class="cube-heading-title">Academic History</h3>
                 </section>
@@ -119,69 +123,70 @@
                     <button type="button" class="btn btn-modal" data-toggle="modal" data-target="#exampleModal">
                         More On Academics
                     </button>
-                    
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title modal-heading" id="exampleModalLabel">Incomplete Studies</h5>
-                                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button> -->
-                                </div>
-                                <div class="modal-body">
-                                    <section>
-                                        <h4>University of the Western Cape</h4>
+            </article>
 
-                                        <p>
-                                            Course: BEd (Mathematics & Natural Sciences)     
-                                        </p>
-
-                                        <p>
-                                            Course Code: ​4516
-                                        </p>
-
-                                        <p>
-                                            Modules: Literacy & Numeracy (EDC111), Life Skills (EDC121), Second Additional Language (EDC122), Education Practice 101 (EDC101)
-                                        </p>
-
-                                        <p>
-                                            Year: 2016 
-                                        </p>
-                                    </section>
-
-                                    <section>
-                                        <h4>University of Johannesburg</h4>
-
-                                        <p>
-                                            Course: BSc in Mathematical Sciences (Mathematics & Psychology)
-                                        </p>
-
-                                        <p>
-                                            Modules: 
-                                        </p>
-
-                                        <p>
-                                            Year: 2017-2018
-                                        </p>
-                                    </section>
-                                </div>
-                                <div class="modal-footer">
-                                    <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
-                                    <button type="button" class="btn btn-modal" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title modal-heading" id="exampleModalLabel">Incomplete Studies</h5>
+                            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button> -->
+                        </div>
+                        <div class="modal-body">
+                            <section>
+                                <h4>University of the Western Cape</h4>
+            
+                                <p>
+                                    Course: BEd (Mathematics & Natural Sciences)
+                                </p>
+            
+                                <p>
+                                    Course Code: ​4516
+                                </p>
+            
+                                <p>
+                                    Modules: Literacy & Numeracy (EDC111), Life Skills (EDC121), Second Additional Language
+                                    (EDC122), Education Practice 101 (EDC101), Mathematics (BEd - MAE111), Mathematics (BEd -
+                                    MAE121), Life Sciences (LSC141), Life Sciences (LSC142)
+                                </p>
+            
+                                <p>
+                                    Year: 2016
+                                </p>
+                            </section>
+            
+                            <section>
+                                <h4>University of Johannesburg</h4>
+            
+                                <p>
+                                    Course: BSc in Mathematical Sciences (Mathematics & Psychology)
+                                </p>
+            
+                                <p>
+                                    Modules:
+                                </p>
+            
+                                <p>
+                                    Year: 2017-2018
+                                </p>
+                            </section>
+                        </div>
+                        <div class="modal-footer">
+                            <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                            <button type="button" class="btn btn-modal" data-dismiss="modal">Close</button>
                         </div>
                     </div>
-                </section>
-                
-            </article>
+                </div>
+            </div>
+            </section>
             <!-- End of section with my academic history -->
         
             <!-- Start of aside section with my skills containing my logo and icons for the languages -->
-            <aside class="skills">
+            <aside class="skills" data-aos="fade-left">
                 <section class="skills-heading">
                     <h3 class="cube-heading-title">Skills & Attributes</h3>
                 </section>
@@ -244,7 +249,7 @@
             <!-- End of aside section with my skills containing my logo and icons for the languages -->
         
             <!-- Start of section with the projects I have done -->
-            <section id="projects" class="projects">
+            <section id="projects" class="projects" data-aos="zoom-in">
                 <section class="projects-heading">
                     <h3 class="cube-heading-title">Projects I've Worked On</h3>
                 </section>
@@ -303,7 +308,7 @@
         <!-- End of content in main -->
 
         <!-- Start of section with information on where to contact me -->
-        <aside id="contact" class="where-to-find-me">
+        <aside id="contact" class="where-to-find-me" data-aos="fade-up">
             <section class="where-to-find-me-heading">
                 <h3 class="cube-heading-title">Where to find me.</h3>
             </section>
@@ -362,6 +367,6 @@
     </div>
     <!-- End of content -->
 
-    <!-- <script src="js/functions.js"></script> -->
+    <script src="js/aos.js"></script>
 </body>
 </html>
